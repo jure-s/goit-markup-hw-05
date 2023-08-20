@@ -803,6 +803,7 @@ body {
     position: absolute;
     top: 50%;
     left: 16px;
+    margin-bottom: 16px;
     transform: translateY(-50%);
     stroke: var(--primary-color);
     fill: var(--primary-color);
@@ -813,7 +814,6 @@ body {
 .review-form-input-wrapper {
     display: block;
     position: relative;
-    margin-bottom: 16px;
 }
 
 .review-form-input:focus + .review-form-input-icon {
