@@ -768,8 +768,13 @@ body {
 
 .review-form-field {
     display: block;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
+
+.add-textarea  {
+     display: block;
+     margin-bottom: 16px;
+ }
 
 .review-form-field-desc {
     display: block;
