@@ -768,7 +768,7 @@ body {
 
 .review-form-field {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .review-form-field-desc {
@@ -803,7 +803,6 @@ body {
     position: absolute;
     top: 50%;
     left: 16px;
-    margin-bottom: 16px;
     transform: translateY(-50%);
     stroke: var(--primary-color);
     fill: var(--primary-color);
