@@ -850,14 +850,17 @@ body {
     color: rgba(46, 47, 66, 0.40);
 }
 
+.modal-check-wrapper {
+    margin-bottom: 24px;
+}
+
 .review-form-checkbox-label {
     display: block;
     font-size: 12px;
     font-weight: 400;
-    line-height: 1.7;
+    line-height: 1.17;
     letter-spacing: 0.48px;
     margin-top: 8px;
-    margin-bottom: 24px;
     color: var(--icon-color);
 }
 
@@ -884,8 +887,7 @@ body {
 .review-form-checkbox:checked + .review-form-checkbox-label > .modal-check-box {
     background-color: var(--accent-color);
     border: none;
-    fill: #FFFFFF;
-    border-color: #404BBF;
+    fill: #F4F4FD;
 }
 
 .review-form-checkbox:focus+.review-form-own-checkbox {
